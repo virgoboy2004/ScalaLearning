@@ -3,7 +3,7 @@ package lesson7
  * This lesson I am going to study the new feature in Scala - trait
  * trait is kind of mix of interface and abstract class in java, 
  * 	1, A trait can has both implemented function and unimplemented functions
- *  2, A class can inherits multiple traits
+ *  2, A class can inherits multiple traits 
  *   
  * 
  * * */
