@@ -1,9 +1,4 @@
 /bin
-
 .cache-main
-
-.cache
-
-.cache
-
+/.*
 .cache

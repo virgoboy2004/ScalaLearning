@@ -3,7 +3,7 @@ package couresra.week1
 /**
  * @author jackzhang
  */
-object PassByNameAndPassByValue {
+object PassByNameAndPassByValue1 {
 
   def callByValue(x: Int) = {
     println("x1=" + x)
@@ -16,9 +16,10 @@ object PassByNameAndPassByValue {
   }
 
   def main(args: Array[String]): Unit = {
-    
+    var index = 1;
     def something(x: Int):Int = {
-      println("calling something");
+      println("calling something " + index);
+      index = index +1;
       var y =x;
       
       x*x
@@ -26,16 +27,13 @@ object PassByNameAndPassByValue {
     
     
     println("call By value")
-    callByValue(something(2));
+    callByValue(something(index));
     
     
     println()
     println()
     println("call By name")
-    callByName(something(4))
-    
-    
-    println(Int.MaxValue/11)
+    callByName(something(index))
 
   }
 
